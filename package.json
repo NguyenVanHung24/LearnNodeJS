@@ -1,0 +1,29 @@
+{
+  "name": "learnnode",
+  "version": "1.0.0",
+  "description": "lear nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenVanHung24/LearnNodeJS.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "hung2404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenVanHung24/LearnNodeJS/issues"
+  },
+  "homepage": "https://github.com/NguyenVanHung24/LearnNodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
